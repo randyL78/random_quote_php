@@ -42,7 +42,8 @@ body {
   position: absolute;
 }
 
-.source {
+.source, 
+.tags {
   font-size: 1.25rem;;
   letter-spacing: 0.05em;
   line-height: 1.1;
