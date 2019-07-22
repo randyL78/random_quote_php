@@ -69,16 +69,16 @@ function printQuote($array) {
   $output = '<p class="quote" >' . $quote['quote'] . '</p>';
   $output .= '<p class="source">' . $quote['source'];
 
-  if ($quote['citation']) {
+  if (isset($quote['citation'])) {
     $output .= '<span class="citation">' . $quote['citation'] . '</span>';
   }
 
-  if ($quote['year']) {
+  if (isset($quote['year'])) {
     $output .= '<span class="year">' . $quote['year'] . '</span>';
   }
   $output =  $output . '</p>'; 
 
-  if ($quote['tags']) {
+  if (isset($quote['tags'])) {
     $output .= '<p class="tags" >Tags: ';
 
     // display the first tag

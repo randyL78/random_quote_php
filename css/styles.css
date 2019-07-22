@@ -98,7 +98,7 @@ body {
   .quote:before, .quote:after {
     font-size: 3rem;
   }
-  .source {
+  .source, .tags {
     font-size: 1rem;
   }
 }
